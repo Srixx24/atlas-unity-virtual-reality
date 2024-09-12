@@ -59,6 +59,7 @@ sysinfo.txt
 *.xls
 *.xlsx
 *.zip
+*.meta
 
 # Compiled Output
 *.dll
