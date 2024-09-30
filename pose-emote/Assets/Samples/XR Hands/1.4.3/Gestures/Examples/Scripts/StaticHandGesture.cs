@@ -153,6 +153,12 @@ namespace UnityEngine.XR.Hands.Samples.GestureSample
 
         void Awake()
         {
+            if (m_Background == null)
+            {
+                Debug.LogError("Background Image is not assigned!");
+                return;
+            }
+
             m_BackgroundDefaultColor = m_Background.color;
 
             if (m_Highlight)
@@ -178,6 +184,18 @@ namespace UnityEngine.XR.Hands.Samples.GestureSample
         {
             if (!isActiveAndEnabled || Time.timeSinceLevelLoad < m_TimeOfLastConditionCheck + m_GestureDetectionInterval)
                 return;
+
+            if (m_HandTrackingEvents == null)
+            {
+                Debug.LogError("Hand Tracking Events is not assigned!");
+                return;
+            }
+
+            if (m_HandShape == null && m_HandPose == null)
+            {
+                Debug.LogError("Both Hand Shape and Hand Pose are not assigned!");
+                return;
+            }
 
             var detected =
                 m_HandTrackingEvents.handIsTracked &&
