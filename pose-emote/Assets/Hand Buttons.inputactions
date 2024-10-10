@@ -1,0 +1,226 @@
+{
+    "name": "Hand Buttons",
+    "maps": [
+        {
+            "name": "Hand buttons",
+            "id": "ac7cc9e5-32c0-4075-b91f-b5cbbbba3c10",
+            "actions": [
+                {
+                    "name": "X Button Left",
+                    "type": "Button",
+                    "id": "99c6ff81-70ea-4035-b0ec-1e2301119f0f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Y Button Left",
+                    "type": "Button",
+                    "id": "f71dbb27-5375-41fa-b6b8-17f28f4f37ad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "A Button Right",
+                    "type": "Button",
+                    "id": "411b879a-e7a7-4d9e-b770-398f2a889c01",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "B Button Left",
+                    "type": "Button",
+                    "id": "675bcb86-ce9e-4cfb-9847-4729fa2848a8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2469c83b-9a45-45d2-90b6-d4adba4a62ad",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "X Button Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "44d22e25-a23d-4946-9147-b40d3d4f2120",
+                    "path": "<XRController>{LeftHand}/primaryTouch",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "X Button Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1e9e8b10-08cf-4775-80a1-9918bcbe2ba4",
+                    "path": "<XRController>{LeftHand}/primary2DAxisClick",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "X Button Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d8dd001a-b6d7-41bb-b50e-674cf685da90",
+                    "path": "<XRController>{LeftHand}/primary2DAxisTouch",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "X Button Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cf72cbd9-fca3-42f9-90c3-fc0d1214cbd4",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Y Button Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b1751611-eb00-4dbb-9323-c546a5d48c62",
+                    "path": "<XRController>{LeftHand}/secondary2DAxisClick",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Y Button Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "766f0620-0445-4cdc-b2eb-b66e81f0773d",
+                    "path": "<XRController>{LeftHand}/secondaryTouch",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Y Button Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "010c7f57-0b83-47b8-a173-614ca9d3a4d6",
+                    "path": "<XRController>{LeftHand}/secondary2DAxisTouch",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Y Button Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5b25289f-0dd8-4ea3-94e3-10aa2f18feaf",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "A Button Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0a353bfd-a62e-463b-80ec-b1bea7f34d7d",
+                    "path": "<XRController>{RightHand}/primaryTouch",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "A Button Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "59cbaa49-ad74-4a1f-8c4b-ce966722ad6f",
+                    "path": "<XRController>{RightHand}/primary2DAxisClick",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "A Button Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "58143d81-abab-49fa-9514-3e512e0d35d9",
+                    "path": "<XRController>{RightHand}/primary2DAxisTouch",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "A Button Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "87f45a79-d1d0-4598-897d-75d88ca168fe",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "B Button Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f4f00a9-9cab-459f-8bda-8124c458aa45",
+                    "path": "<XRController>{RightHand}/secondaryTouch",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "B Button Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dfc30619-98e3-48a1-94b6-0a2589cb50dc",
+                    "path": "<XRController>{RightHand}/secondary2DAxisClick",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "B Button Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b7252e60-8880-4029-8ceb-68a7f68b6189",
+                    "path": "<XRController>{RightHand}/secondary2DAxisTouch",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "B Button Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

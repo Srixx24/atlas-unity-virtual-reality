@@ -4,9 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Emote.unity
+    guid: 6fbe5d3aff5671c4aa549e67bee01431
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c2d5c28de371832478b395e8d2492f09, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: f99f395d8ebd9a343a9f85b04e4fe5d7, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 9c7033470b561a94e88c33d763f7846f, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 42501187c7c06a84695d318a37b59223, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 711c6f6fc105bb54c95efd8c24f43e60, type: 2}
