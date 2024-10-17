@@ -3902,19 +3902,21 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 26
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 50
-    m_Alignment: 4
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A reusable main menu for any future VR applications developed. Featuring
-    inclusive UI elements in virtual spaces.
+  m_Text: This is an immersive and accessible VR world to test out accessibility
+    settings. A vignetting effect is in place for motion sickness. Others my be controlled
+    on the panel to the right and more in the setting menu, acessed on the pannel
+    to the left.
 --- !u!223 &896973837985742408
 Canvas:
   m_ObjectHideFlags: 0
@@ -8022,7 +8024,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559265987520524584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0000034735}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8030,8 +8032,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -60.000008, y: 90}
+  m_AnchoredPosition: {x: 5.549988, y: -2.5}
+  m_SizeDelta: {x: -59.1, y: 87.5}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &4355162321753503478
 MonoBehaviour:
@@ -10323,7 +10325,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Replaceable with custom images '
+  m_Text: Inclusive Virtual Realities
 --- !u!224 &6131808055837055322
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13379,7 +13381,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Main Menu Title
+  m_Text: Accessibility Features in VR
 --- !u!1 &8063056433851982097
 GameObject:
   m_ObjectHideFlags: 0

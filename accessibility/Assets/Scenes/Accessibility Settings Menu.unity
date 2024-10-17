@@ -3221,6 +3221,7 @@ GameObject:
   - component: {fileID: 1493658006}
   - component: {fileID: 1493658005}
   - component: {fileID: 1493658004}
+  - component: {fileID: 1493658011}
   m_Layer: 5
   m_Name: Reset
   m_TagString: Untagged
@@ -3602,6 +3603,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493658001}
   m_CullTransparentMesh: 0
+--- !u!114 &1493658011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493658001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8596ce7f544b96b4c848352e88789642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highContrastButton: {fileID: 8067996757631475058}
+  protDeuterButton: {fileID: 6001067246827481362}
+  tritanopiaButton: {fileID: 9215598159779093878}
+  resetButton: {fileID: 1493658009}
 --- !u!1 &1524633428
 GameObject:
   m_ObjectHideFlags: 0
@@ -6202,6 +6219,7 @@ GameObject:
   - component: {fileID: 944046855948104616}
   - component: {fileID: 1471223375057688071}
   - component: {fileID: 4964377945157620253}
+  - component: {fileID: 7914942501979484991}
   m_Layer: 5
   m_Name: Protanopia & Deuteranopia
   m_TagString: Untagged
@@ -9661,6 +9679,7 @@ GameObject:
   - component: {fileID: 7121036179916373782}
   - component: {fileID: 8463662678409469497}
   - component: {fileID: 3908434309531441407}
+  - component: {fileID: 9215598159779093879}
   m_Layer: 5
   m_Name: Tritanopia Button
   m_TagString: Untagged
@@ -14230,6 +14249,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7914942501979484991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774475399662597860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8596ce7f544b96b4c848352e88789642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highContrastButton: {fileID: 8067996757631475058}
+  protDeuterButton: {fileID: 6001067246827481362}
+  tritanopiaButton: {fileID: 9215598159779093878}
+  resetButton: {fileID: 1493658009}
 --- !u!114 &7921540310384759599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14289,6 +14324,7 @@ GameObject:
   - component: {fileID: 9137622394485018188}
   - component: {fileID: 5486391188905210484}
   - component: {fileID: 348943336366455503}
+  - component: {fileID: 9137622394485018189}
   m_Layer: 5
   m_Name: High Contrast
   m_TagString: Untagged
@@ -16823,6 +16859,22 @@ MonoBehaviour:
   m_ApplyIfChildIsTarget: 1
   m_ClampToMaxDistance: 1
   m_MaxDistance: 20
+--- !u!114 &9137622394485018189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7979999923291774506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8596ce7f544b96b4c848352e88789642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highContrastButton: {fileID: 8067996757631475058}
+  protDeuterButton: {fileID: 6001067246827481362}
+  tritanopiaButton: {fileID: 9215598159779093878}
+  resetButton: {fileID: 1493658009}
 --- !u!114 &9146015505177620944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17081,6 +17133,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &9215598159779093879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4038615138964371209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8596ce7f544b96b4c848352e88789642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highContrastButton: {fileID: 8067996757631475058}
+  protDeuterButton: {fileID: 6001067246827481362}
+  tritanopiaButton: {fileID: 9215598159779093878}
+  resetButton: {fileID: 1493658009}
 --- !u!114 &9220754478990557052
 MonoBehaviour:
   m_ObjectHideFlags: 0
