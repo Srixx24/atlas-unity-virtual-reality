@@ -1,5 +1,5 @@
 
-
+![Atlas-Unity-Virtual-Reality](https://github.com/user-attachments/assets/c728f518-217b-4487-b9e0-d484314d365d)
 
 <br>
 
@@ -11,17 +11,17 @@ All projects were managed and developed by me <a href="https://github.com/Srixx2
 
 <br>
 
-This repository contains many projects from my third trimester of AR/VR development specialization, with a few sprinkled in from my fourth trimester as well. During this time a greater understanding of Unity and how it functions formed; some projects I'm really proud of are located here. See below for some examples.
+This repository contains many projects from my Fourth trimester of AR/VR development specialization. Within this repository are many projects I worked on strengthing my understanding and skills in developing within Unity in the virtual world. Below are some projects I'm really proud of from this repo.
 
 ---
 <center> <h3>Repository Overview</h3> </center>
 
-1. With this project <a href="https://github.com/Srixx24/atlas-unity/tree/main/unity-assets_models_textures">unity-assets_models_textures</a> I learn about using assets and textures in Unity. I worked hard to design an entire three-level game with a main menu and settings scenes. This project was very exciting and I was always ready to jump back into it. (The banner is an actual screenshot of my game 🤓)
+1. With this project <a href="https://github.com/Srixx24/atlas-unity-virtual-reality/tree/main/360-video">360-video</a> I learn about using 
 
-2. With this project <a href="https://github.com/Srixx24/atlas-unity/tree/main/unity-animation">unity-animation</a> I learned much about animation in unity. How to make transition scenes, animate a player in a 3d game, give life to objects, and so much more. It was so much fun learning these skills.
+2. With this project <a href="https://github.com/Srixx24/atlas-unity-virtual-reality/tree/main/accessibility">accessibility</a> I learned much about 
 
-3. With this project <a href="https://github.com/Srixx24/atlas-unity/tree/main/unity-ar_slingshot_game">unity-ar_slingshot_game</a> I learned how to develop a game application with augmented reality. This was a four-week major project that really tested my skills in unity and my ability to absorb info in a short timeline. It was a marathon but a worthwhile learning experience. I am very proud of what I was able to design and develop within my timeline.
-
+3. With this project <a href="https://github.com/Srixx24/atlas-unity-virtual-reality/tree/main/physics-interaction">physics-interaction</a> I learned how to
+(The banner is an actual screenshot of my game 🤓)
 
 <br>
 <br>
